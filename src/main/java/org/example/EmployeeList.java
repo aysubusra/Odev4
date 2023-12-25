@@ -6,6 +6,7 @@ public class EmployeeList
 // Employee sınıfından iki nesne oluşturuluyor
         Employee personnel1 = new Employee();
         Employee personnel2 = new Employee();
+
 // 1. çalışanın bilgileri veriliyor
         personnel1.name = "Aysu";
         personnel1.surname = "Murat";
