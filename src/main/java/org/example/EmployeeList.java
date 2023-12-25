@@ -3,6 +3,7 @@ package org.example;
 public class EmployeeList
 {
     public static void main(String[] args) {
+
 // Employee sınıfından iki nesne oluşturuluyor
         Employee personnel1 = new Employee();
         Employee personnel2 = new Employee();
