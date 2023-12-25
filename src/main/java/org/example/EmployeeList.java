@@ -1,4 +1,4 @@
-import org.example.Employee;
+package org.example;
 
 public class EmployeeList
 {
@@ -22,6 +22,5 @@ public class EmployeeList
         personnel1.personnel_other_infos();
         personnel2.personnel_full_name();
         personnel2.personnel_other_infos();
-
     }
 }
