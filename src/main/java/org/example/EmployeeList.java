@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class EmployeeList
 {
     public static void main(String[] args) {
@@ -26,3 +28,6 @@ public class EmployeeList
         personnel2.personnel_other_infos();
     }
 }
+
+
+
