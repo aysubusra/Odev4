@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 public class EmployeeList
 {
     public static void main(String[] args) {
@@ -11,16 +9,16 @@ public class EmployeeList
         Employee personnel2 = new Employee();
 
 // 1. çalışanın bilgileri veriliyor
-        personnel1.name = "Aysu";
-        personnel1.surname = "Murat";
-        personnel1.position = "QA Engineer";
-        personnel1.seniority = "1";
+        personnel1.setName("Aysu");
+        personnel1.setSurname("Murat");
+        personnel1.setPosition("QA Engineer");
+        personnel1.setSeniority("1");
 
 // 2. çalışanın bilgileri veriliyor
-        personnel2.name = "Büşra";
-        personnel2.surname = "Murat";
-        personnel2.position = "QA Lead";
-        personnel2.seniority = "3";
+        personnel2.setName("Büşra");
+        personnel2.setSurname("Murat");
+        personnel2.setPosition("QA Lead");
+        personnel2.setSeniority("3");
 
         personnel1.personnel_full_name();
         personnel1.personnel_other_infos();
